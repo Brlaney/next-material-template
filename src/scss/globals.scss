@@ -1,0 +1,18 @@
+@import "themes";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: $c-plum;
+  color: #fff;
+  font-family: $primary-font-family;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
