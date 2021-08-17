@@ -7,8 +7,26 @@ body {
   background: $bg1;
   color: #fff;
   font-family: $primary-font;
+  overflow-y: hidden;
 }
 
-a { color: inherit; }
+a {
+  color: inherit;
+}
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
+.footerContainer {
+  width: 100%;
+  position: fixed;
+  .footer {
+    color: $light;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 0.67rem;
+  }
+}

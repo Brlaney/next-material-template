@@ -5,6 +5,8 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardActions from '@material-ui/core/CardActions'
 import Grid from '@material-ui/core/Grid'
+
+import Footer from '@/components/Footer'
 import styles from '@/styles/pages/Home.module.scss'
 
 
@@ -24,13 +26,18 @@ export default function Home() {
                 </Typography>
               </CardContent>
               <CardActions className={styles.actions}>
-                <Button className={styles.button} variant='contained' color='primary'>
-                  Action
+                <Typography className={styles.body} variant='body1' component='div'>
+                  This template can be used as a baseline frontend web application.
+                  Click the link to learn more.
+                </Typography>
+                <Button className={styles.button} variant='outlined' color='primary'>
+                  Source code
                 </Button>
               </CardActions>
             </Card>
           </Grid>
         </Grid>
+        <Footer />
       </Container>
     </>
   )

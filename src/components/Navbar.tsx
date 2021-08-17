@@ -10,7 +10,7 @@ import styles from '@/styles/components/Navbar.module.scss'
 const Navbar = () => {
   return (
     <>
-      <AppBar className={styles.appBar} color='default' elevation={1}>
+      <AppBar className={styles.appBar} color='default' elevation={0}>
         <Toolbar className={styles.toolbar}>
           <Typography className={styles.brand} variant='h6' color='inherit' noWrap>
             Next-Mui Template
