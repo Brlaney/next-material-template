@@ -19,6 +19,8 @@ export default function Footer(props: any) {
           className={styles.link}
           color='inherit'
           href='https://github.com/Brlaney/next-material-template'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Next-Mui Template
         </Link>{' '}
