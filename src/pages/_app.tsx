@@ -8,6 +8,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import createCache from '@emotion/cache'
 import theme from '@/lib/theme'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 import '@/styles/globals.scss'
 
@@ -32,6 +33,7 @@ export default function MyApp(props: AppProps) {
         <CssBaseline />
         <Navbar />
         <Component {...pageProps} key={router.route} />
+        <Footer />
       </ThemeProvider>
     </CacheProvider>
   )
