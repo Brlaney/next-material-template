@@ -3,76 +3,80 @@ import {
   responsiveFontSizes
 } from '@material-ui/core/styles'
 
-const font = "'Lato', sans-serif"
+const font = "'Raleway', sans-serif"
 
 let theme = createTheme({
+  // Palette
   palette: {
     primary: {
-      main: '#443850ff'
+      main: '#2969ff'
     },
     secondary: {
-      main: '#bbbe64ff'
+      main: '#ffce5c'
     },
     error: {
-      main: '#8e5572ff'
+      main: '#ff5c8d'
     },
     warning: {
       main: '#EEE8A9'
     },
     info: {
-      main: '#bcaa99ff'
+      main: '#016FB9'
     },
     success: {
       main: '#91EA84'
     },
     background: {
-      default: '#f2f7f2ff'
+      default: '#016FB9'
     }
   },
+  // Breakpoints
   breakpoints: {
     values: {
       xs: 0,
-      sm: 700,
-      md: 900,
+      sm: 600,
+      md: 1000,
       lg: 1200,
-      xl: 1500
-    }
+      xl: 1536,
+    },
   },
+  // Font-family & font-sizes
   typography: {
     fontFamily: font,
     h1: {
-      fontSize: 82
-    },
-    h2: {
       fontSize: 66
     },
+    h2: {
+      fontSize: 52
+    },
     h3: {
-      fontSize: 54
+      fontSize: 44
     },
     h4: {
-      fontSize: 45
+      fontSize: 36
     },
     h5: {
-      fontSize: 36
+      fontSize: 30
     },
     h6: {
       fontSize: 26
     },
     subtitle1: {
-      fontSize: 24
+      fontSize: 26
     },
     subtitle2: {
-      fontSize: 22
+      fontSize: 24
     },
     body1: {
-      fontSize: 20
+      fontSize: 22
     },
     body2: {
-      fontSize: 18
+      fontSize: 20
     }
   }
 })
 
+// Responsive font-size helper
 theme = responsiveFontSizes(theme)
 
 export default theme

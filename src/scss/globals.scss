@@ -1,12 +1,12 @@
-@import "themes";
+@import './theme/theme';
 
 html,
 body {
   padding: 0;
   margin: 0;
-  background: $c-plum;
+  background: $bg;
   color: #fff;
-  font-family: $primary-font-family;
+  font-family: $primary-font;
 }
 
 a {

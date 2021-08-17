@@ -1,4 +1,4 @@
-@import "themes";
+@import './theme/theme';
 
 .container {
   min-height: 100vh;
@@ -7,12 +7,46 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.header {
-  margin-top: 3.0rem;
-  padding: 5px;
-  font-size: 110px;
-  flex: 1;
-  font-weight: 500;
+  .grid {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .item {
+      padding: 0.5rem;
+      margin-top: 1rem;
+
+      .card {
+        padding: 1.33rem;
+
+        .content {
+          .header1 {
+            margin: 0.5rem 0 0 0;
+            padding: 0.33rem 0 0.33rem 0;
+            color: $text-dark;
+            text-align: justify;
+          }
+
+          .header2 {
+            font-weight: bold;
+            color: $text-dark;
+            text-align: justify;
+          }
+        }
+
+        .actions {
+          .button {
+            width: 100%;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
 }
