@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardActions from '@material-ui/core/CardActions'
 import Grid from '@material-ui/core/Grid'
-import styles from '@/styles/Home.module.scss'
+import styles from '@/styles/pages/Home.module.scss'
 
 
 export default function Home() {

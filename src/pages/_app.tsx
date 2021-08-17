@@ -7,9 +7,12 @@ import { CacheProvider } from '@emotion/react'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import createCache from '@emotion/cache'
 import theme from '@/lib/theme'
+import Navbar from '@/components/Navbar'
+
 import '@/styles/globals.scss'
 
 export const cache = createCache({ key: 'css', prepend: true })
+
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props
@@ -27,6 +30,7 @@ export default function MyApp(props: AppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Navbar />
         <Component {...pageProps} key={router.route} />
       </ThemeProvider>
     </CacheProvider>

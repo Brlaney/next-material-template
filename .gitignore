@@ -1,7 +1,3 @@
-############################
-# Windows
-############################
-
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -10,12 +6,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
-
-############################
-# Packages
-############################
-
 *.7z
 *.csv
 *.dat
@@ -39,34 +29,17 @@ $RECYCLE.BIN/
 *.swm
 *.out
 *.pid
-
-
-############################
-# Logs and databases
-############################
-
 .tmp
 *.log
 *.sql
 *.sqlite
 *.sqlite3
-
-
-############################
-# Misc.
-############################
-
 *#
 ssl
 .idea
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
-
-############################
-# Node.js
-############################
-
 lib-cov
 lcov.info
 pids
@@ -74,21 +47,4 @@ logs
 results
 node_modules
 .node_history
-
-############################
-# Tests
-############################
-
-testApp
-coverage
-
-############################
-# Strapi
-############################
-
-.env
-license.txt
-exports
-*.cache
-build
-.strapi-updater.json
+*.next

@@ -1,0 +1,33 @@
+@import '../theme/theme';
+
+
+.appBar {
+  position: static;
+
+  .toolbar {
+    background-color: $bg-dark;
+    flex-grow: 1;
+    color: $light;
+
+    // .brand {
+    //   color: $text-dark;
+    // }
+
+    .nav {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+
+      .link {
+        margin: 0.33rem 0.62rem 0.33rem 0.62rem;
+      }
+
+    }
+
+    .button {
+      margin: 0.33rem 0.62rem 0.33rem 0.62rem;
+    }
+
+  }
+
+}
