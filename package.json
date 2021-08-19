@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-ts-mui",
+  "name": "next-material-template",
   "version": "0.1.0",
   "description": "NextJs configured for TS and Material-Ui",
-  "author": "brlaney",
+  "author": "Laney, Brendan",
   "license": "MIT",
   "private": true,
   "scripts": {
